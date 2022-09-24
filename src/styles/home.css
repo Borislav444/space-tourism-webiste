@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.home{
+ 
+    width: 100%;
+    height:900px;
+}
+
+.space{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 22%;
+    
+}
+
+.spaceText{
+    width: 450px;
+    height: 382px; 
+    align-self: center;
+   
+   
+    
+}
+
+.spaceCircle{
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+}
+
+.spaceText h3{
+    color: #D0D6F9;
+    font-size: 28px;
+    font-family: "Barlow Condensed";
+    font-weight: 400;
+    
+}
+.spaceText h1{
+  font-family: "Bellefair";
+  font-size: 150px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 445px;
+  height: 172px;
+  margin: 0;
+  line-height:100%;
+}
+
+.spaceText p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:"Barlow Condensed";
+    width: 444px;
+    height: 128px;
+    color:#D0D6F9;
+    line-height: 32px;
+
+}
+
+.spaceCircle h4{
+    width: 148px;
+    height: 37px;
+    font-size: 32px;
+    padding-left: 55px;
+    padding-top: 55px;
+    color: #D9D9D9;
+
+}

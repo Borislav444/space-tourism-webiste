@@ -1,0 +1,30 @@
+.crew{
+    width: 100%;
+    height: 900px;
+}
+
+.crewContent{
+    width: 100%;
+}
+.crewText{
+    width: 50%;
+}
+
+.crewImage{
+    width: 50%;
+}
+
+.crewText h2{
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 382px;
+    height: 34px;
+    font-size: "Barlow Condensed";
+    padding-left: 10%;
+}
+
+.crewText span{
+    color: rgba(106, 122, 139, 0.25);
+    offset: 0px 4px;
+    padding-right: 10px;
+}
