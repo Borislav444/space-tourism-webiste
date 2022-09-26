@@ -5,26 +5,74 @@
 
 .crewContent{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crewHeader{
+    width: 100%;
+    height: auto;
 }
 .crewText{
     width: 50%;
+    padding-top: 20px;
+
 }
 
 .crewImage{
-    width: 50%;
+    width: 568px;
+    height: 712px;
+    position: relative;
+    bottom:35px;
 }
 
-.crewText h2{
+.crewHeader h2{
     font-size: 28px;
     color: #FFFFFF;
     width: 382px;
     height: 34px;
     font-size: "Barlow Condensed";
-    padding-left: 10%;
+    padding-left: 5%;
+    
 }
 
-.crewText span{
+.crewHeader span{
     color: rgba(106, 122, 139, 0.25);
     offset: 0px 4px;
     padding-right: 10px;
+}
+
+.crewText h1{
+    font-size: 32px;
+    opacity: 50.42%;
+    fill: "solid";
+    padding-left: 60px;
+}
+
+.crewText h3{
+    font-size: 56px;
+    color:#FFFFFF;
+    padding-left: 60px;
+    font-family: "Bellefair";
+}
+.crewText p{
+ width: 444px;
+height: 128px;
+color:#D0D6F9;
+padding-left: 60px;
+font-size: 18px;
+}
+ 
+.buttons{
+    margin-left: 10%;
+
+}
+
+ .buttons button{
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+   border-radius: 50%;
+   color:#979797;
 }
